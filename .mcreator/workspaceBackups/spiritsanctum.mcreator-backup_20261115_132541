@@ -1,0 +1,65 @@
+{
+  "mod_elements": [
+    {
+      "name": "MordretSummonTemplate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mordret_summon_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spiritsanctum/procedures/MordretSummonTemplateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DioritePowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spiritsanctum/item/DioritePowderItem.java",
+          "src/main/resources/assets/spiritsanctum/models/item/diorite_powder.json"
+        ]
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.spiritsanctum.diorite_powder": "Diorite Powder"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "spiritsanctum",
+    "modName": "SpiritSanctum",
+    "version": "1.0.0",
+    "author": "Joseph, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.spiritsanctum"
+  },
+  "mcreatorVersion": 202400452410
+}

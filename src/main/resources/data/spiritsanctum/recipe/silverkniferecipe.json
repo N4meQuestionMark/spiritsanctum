@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:diorite"
+  },
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "addition": {
+    "item": "minecraft:lapis_block"
+  },
+  "result": {
+    "id": "spiritsanctum:silver_knife"
+  }
+}

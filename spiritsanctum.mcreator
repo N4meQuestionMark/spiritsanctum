@@ -12,6 +12,78 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "DioritePowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/spiritsanctum/item/DioritePowderItem.java",
+          "src/main/resources/assets/spiritsanctum/models/item/diorite_powder.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SilverKnife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spiritsanctum/models/item/silver_knife.json",
+          "src/main/java/net/mcreator/spiritsanctum/item/SilverKnifeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Dioritepowderrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dioritepowderrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spiritsanctum/recipe/dioritepowderrecipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Silverkniferecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverkniferecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spiritsanctum/recipe/silverkniferecipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SealedEnviromentBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sealed_enviroment_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spiritsanctum/loot_table/blocks/sealed_enviroment_block.json",
+          "src/main/resources/assets/spiritsanctum/blockstates/sealed_enviroment_block.json",
+          "src/main/java/net/mcreator/spiritsanctum/block/entity/SealedEnviromentBlockBlockEntity.java",
+          "src/main/resources/assets/spiritsanctum/models/item/sealed_enviroment_block.json",
+          "src/main/resources/assets/spiritsanctum/models/block/sealed_enviroment_block.json",
+          "src/main/java/net/mcreator/spiritsanctum/block/SealedEnviromentBlockBlock.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -19,11 +91,20 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.spiritsanctum.diorite_powder": "Diorite Powder",
+      "item.spiritsanctum.silver_knife": "Silver Knife",
+      "block.spiritsanctum.sealed_enviroment_block": "Sealed Enviroment Block"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "spiritsanctum",

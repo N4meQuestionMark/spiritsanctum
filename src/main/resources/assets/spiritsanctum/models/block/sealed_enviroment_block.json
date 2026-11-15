@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spiritsanctum:block/invis",
+    "up": "spiritsanctum:block/invis",
+    "north": "spiritsanctum:block/invis",
+    "east": "spiritsanctum:block/invis",
+    "south": "spiritsanctum:block/invis",
+    "west": "spiritsanctum:block/invis",
+    "particle": "spiritsanctum:block/invis"
+  },
+  "render_type": "translucent"
+}
