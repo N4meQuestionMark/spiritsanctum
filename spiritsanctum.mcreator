@@ -1,21 +1,16 @@
 {
   "mod_elements": [
     {
-      "name": "Ritual",
+      "name": "MordretSummonTemplate",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ritual",
+      "registry_name": "mordret_summon_template",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/spiritsanctum/procedures/RitualProcedure.java"
+          "src/main/java/net/mcreator/spiritsanctum/procedures/MordretSummonTemplateProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     }
   ],
